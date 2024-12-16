@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First AI Doge</title>
+    <!-- Font Awesome for Twitter Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Sayfanın tam ekran ve siyah arka plan olması */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        /* Görselin küçültülmesi */
+        .logo img {
+            width: 200px; /* Görsel genişliği ayarı */
+            height: auto;
+        }
+
+        /* Açıklama yazısının stil ayarları */
+        .description {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* CA yazısının stil ayarları */
+        .ca-address {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #ccc; /* Açık gri renk */
+        }
+
+        /* Butonların genel stil ayarları */
+        .button {
+            margin-top: 20px;
+        }
+
+        .button a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            background-color: #000; /* Buton arka planı siyah */
+            color: white; /* Yazı ve ikon rengi beyaz */
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 16px;
+            border: 2px solid white; /* Beyaz çerçeve */
+            margin: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .button a:hover {
+            background-color: #333; /* Hover'da gri tonu */
+            color: #1da1f2; /* Yazı rengi Twitter mavi tonu */
+        }
+
+        .button a i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Görsel -->
+    <div class="logo">
+        <img src="logo.webp" alt="Logo">
+    </div>
+
+    <!-- Açıklama Yazısı -->
+    <div class="description">
+        First AI Doge on Vana Chain
+    </div>
+
+    <!-- CA Adresi -->
+    <div class="ca-address">
+        Ca : 0xf159BD38D20c30e3670E490057F1654591C68355
+    </div>
+
+    <!-- Twitter ve Dexscreener Butonları -->
+    <div class="button">
+        <a href="https://x.com/Vana_Doge" target="_blank">
+            <i class="fab fa-twitter"></i> Follow Us on Twitter
+        </a>
+        <a href="https://dexscreener.com/vana/0x3f05bf439e6dde063c06a3dbae8a8fe4a16d9b2e" target="_blank">
+            <i class="fas fa-chart-line"></i> View on Dexscreener
+        </a>
+    </div>
+</body>
+</html>
